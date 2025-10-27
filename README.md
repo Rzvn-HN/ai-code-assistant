@@ -1,23 +1,16 @@
-# Ai-code-assistant
+# AI Code Assistant
 
-## Features
+A VS Code extension that brings AI-powered coding features directly into your editor:
 
+## Core Features:
 
+· Code Explanation - AI explains selected code
+· Bug Detection - Finds potential issues automatically
+· Code Generation - Creates code from text descriptions
+· Code Optimization - Suggests improvements
 
-## Requirements
+## Tech Stack:
 
-
-
-## Extension Settings
-
-
-
-
-## Following extension guidelines
-
-
-
-## Working with Markdown
-
-
-**Enjoy!**
+· TypeScript + VS Code Extension API
+· OpenAI GPT integration
+· Secure API key management
