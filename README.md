@@ -22,7 +22,11 @@ A VS Code extension that brings AI-powered coding features directly into your ed
 ### Setup
 1. Get your OpenAI API key
 2. Add to VS Code settings:
+
 `json
+
 {
+
   "aiCodeAssistant.apiKey": "your-key-here"
+  
 }

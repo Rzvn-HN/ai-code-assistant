@@ -6,3 +6,10 @@ out/
 .vscode-test.mjs
 vsc-extension-quickstart.md
 *.vsix
+backend/chroma_db/
+venv/
+__pycache__/
+*.pyc
+.cache/
+*.log
+.DS_Store
