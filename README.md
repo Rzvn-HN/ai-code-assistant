@@ -3,7 +3,7 @@
 A VS Code extension that brings AI-powered coding features directly into your editor:
 
 
-## Core Features:
+## ✨Core Features:
 
 · Code Explanation - AI explains selected code
 
@@ -13,7 +13,7 @@ A VS Code extension that brings AI-powered coding features directly into your ed
 
 · Code Optimization - Suggests improvements
 
-## Tech Stack:
+## 🔧Tech Stack:
 
 · TypeScript + VS Code Extension API
 
