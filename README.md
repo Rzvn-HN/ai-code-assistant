@@ -2,6 +2,7 @@
 
 A VS Code extension that brings AI-powered coding features directly into your editor:
 
+📹 Demo Video: Coming Soon!
 
 ## ✨Core Features:
 
