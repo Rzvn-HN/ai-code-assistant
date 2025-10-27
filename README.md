@@ -2,6 +2,7 @@
 
 A VS Code extension that brings AI-powered coding features directly into your editor:
 
+
 ## Core Features:
 
 · Code Explanation - AI explains selected code
