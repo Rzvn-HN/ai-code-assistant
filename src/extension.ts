@@ -71,7 +71,6 @@ export function activate(context: vscode.ExtensionContext) {
         }
     }
 
-    // Command: Explain Code
     const explainCommand = vscode.commands.registerCommand('ai-code-assistant.explainCode', async () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
@@ -96,7 +95,6 @@ export function activate(context: vscode.ExtensionContext) {
         }
     });
 
-    // Command: Detect Bugs
     const detectBugsCommand = vscode.commands.registerCommand('ai-code-assistant.detectBugs', async () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
@@ -121,7 +119,6 @@ export function activate(context: vscode.ExtensionContext) {
         }
     });
 
-    // Command: Generate Code
     const generateCodeCommand = vscode.commands.registerCommand('ai-code-assistant.generateCode', async () => {
         const description = await vscode.window.showInputBox({
             prompt: 'Describe the code you want to generate',
