@@ -1,23 +1,28 @@
-# AI Code Assistant
+# 🤖 AI Code Assistant
 
-A VS Code extension that brings AI-powered coding features directly into your editor:
+A VS Code extension that brings AI-powered coding features directly into your editor.
 
-📹 Demo Video: Coming Soon!
+📹 Demo: Coming Soon!
 
-## ✨Core Features:
+## ✨ Features
 
-· Code Explanation - AI explains selected code
+- Code Explanation - Understand complex code with AI explanations
+- Bug Detection - Find potential issues automatically
+- Code Generation - Create code from text descriptions
+- Code Optimization - Get improvement suggestions
+- Documentation Helper - Generate comments and docs
 
-· Bug Detection - Finds potential issues automatically
+## 🚀 Quick Start
 
-· Code Generation - Creates code from text descriptions
+### Install
+1. Open VS Code Extensions (Ctrl+Shift+X)
+2. Search "AI Code Assistant"
+3. Click Install
 
-· Code Optimization - Suggests improvements
-
-## 🔧Tech Stack:
-
-· TypeScript + VS Code Extension API
-
-· OpenAI GPT integration
-
-· Secure API key management
+### Setup
+1. Get your OpenAI API key
+2. Add to VS Code settings:
+`json
+{
+  "aiCodeAssistant.apiKey": "your-key-here"
+}
