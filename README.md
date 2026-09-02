@@ -45,7 +45,7 @@ Developer Question
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### Repository Indexing
 The system scans a code repository and extracts source files.
