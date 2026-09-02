@@ -4,12 +4,18 @@ out/
 .env
 .vs/
 .vscode-test.mjs
-vsc-extension-quickstart.md
 *.vsix
-backend/chroma_db/
+
+# Python
 venv/
 __pycache__/
 *.pyc
 .cache/
+
+# RAG
+backend/chroma_db/
+
+# Logs
 *.log
+
 .DS_Store
