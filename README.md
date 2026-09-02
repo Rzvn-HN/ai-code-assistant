@@ -1,32 +1,188 @@
-# 🤖 AI Code Assistant
+#  AI Code Assistant
 
-A VS Code extension that brings AI-powered coding features directly into your editor.
+A Retrieval-Augmented Generation (RAG) based AI coding assistant that understands software repositories and helps developers search and interact with their codebase using Large Language Models (LLMs).
 
-📹 Demo: Coming Soon!
+The goal of this project is to build a private AI coding companion that can analyze project context and provide intelligent programming assistance.
 
-## ✨ Features
+---
 
-- Code Explanation - Understand complex code with AI explanations
-- Bug Detection - Find potential issues automatically
-- Code Generation - Create code from text descriptions
-- Code Optimization - Get improvement suggestions
-- Documentation Helper - Generate comments and docs
+##  Features
 
-## 🚀 Quick Start
+-  Repository code indexing
+-  Semantic code search
+-  Code chunking pipeline
+-  Embedding-based retrieval
+-  ChromaDB vector storage
+-  FastAPI backend
+-  Local LLM support with Ollama
+-  VS Code Extension integration (in progress)
 
-### Install
-1. Open VS Code Extensions (Ctrl+Shift+X)
-2. Search "AI Code Assistant"
-3. Click Install
+---
 
-### Setup
-1. Get your OpenAI API key
-2. Add to VS Code settings:
+##  Architecture
 
-`json
+```
+Developer Question
+        |
+        ↓
+   FastAPI Backend
+        |
+        ↓
+    RAG Pipeline
+        |
+        ↓
+ Vector Database (ChromaDB)
+        |
+        ↓
+ Relevant Code Context
+        |
+        ↓
+    LLM (Ollama)
+        |
+        ↓
+    AI Response
+```
 
-{
+---
 
-  "aiCodeAssistant.apiKey": "your-key-here"
-  
-}
+## 🧠 How It Works
+
+### Repository Indexing
+The system scans a code repository and extracts source files.
+
+Supported:
+
+- Python
+- JavaScript
+- TypeScript
+
+Ignored:
+
+```
+node_modules
+venv
+.git
+build
+dist
+```
+
+---
+
+### Chunking & Retrieval
+
+Large source files are divided into smaller chunks and converted into embeddings.
+
+The system uses semantic search to retrieve relevant code based on meaning instead of simple keywords.
+
+Example:
+
+```
+Question:
+Where is API key configured?
+
+↓
+
+Retrieved:
+Configuration related code
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+- Python
+- FastAPI
+- Uvicorn
+
+### AI / RAG
+- LangChain
+- ChromaDB
+- Embedding Models
+- Ollama
+
+### Development
+- Git
+- GitHub
+- VS Code Extension API
+
+---
+
+##  Project Structure
+
+```
+ai-code-assistant/
+
+├── backend/
+│   ├── main.py
+│   └── rag/
+│       ├── loader.py
+│       ├── chunker.py
+│       ├── vector_store.py
+│       └── retriever.py
+│
+├── src/
+│   ├── ai-service.ts
+│   └── extension.ts
+│
+└── README.md
+```
+
+---
+
+##  Run Project
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run backend:
+
+```bash
+cd backend
+
+python -m uvicorn main:app --reload
+```
+
+Server:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+##  Current Status
+
+Completed:
+
+  Repository loader  
+  Code chunking  
+  Embedding generation  
+  Vector database storage  
+  Semantic search API  
+
+
+In Progress:
+
+ Ollama LLM integration  
+ VS Code AI chat interface  
+ Code explanation and suggestions  
+
+---
+
+##  Future Roadmap
+
+- Full VS Code AI assistant
+- Multi-language support
+- Bug detection
+- Code refactoring suggestions
+- Private local AI coding companion
+
+---
+
+##  Author
+
+AI Engineering Portfolio Project
