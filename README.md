@@ -2,9 +2,6 @@
 
 A Retrieval-Augmented Generation (RAG) based AI coding assistant that understands software repositories and helps developers search and interact with their codebase using Large Language Models (LLMs).
 
-The goal of this project is to build a private AI coding companion that can analyze project context and provide intelligent programming assistance.
-
-
 
 ##  Features
 
