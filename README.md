@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) based AI coding assistant that understand
 
 The goal of this project is to build a private AI coding companion that can analyze project context and provide intelligent programming assistance.
 
----
+
 
 ##  Features
 
@@ -17,7 +17,7 @@ The goal of this project is to build a private AI coding companion that can anal
 -  Local LLM support with Ollama
 -  VS Code Extension integration (in progress)
 
----
+
 
 ##  Architecture
 
@@ -66,7 +66,7 @@ build
 dist
 ```
 
----
+
 
 ### Chunking & Retrieval
 
@@ -86,9 +86,9 @@ Retrieved:
 Configuration related code
 ```
 
----
 
-## 🛠️ Tech Stack
+
+##  Tech Stack
 
 ### Backend
 - Python
@@ -106,7 +106,7 @@ Configuration related code
 - GitHub
 - VS Code Extension API
 
----
+
 
 ##  Project Structure
 
@@ -128,7 +128,7 @@ ai-code-assistant/
 └── README.md
 ```
 
----
+
 
 ##  Run Project
 
@@ -152,7 +152,7 @@ Server:
 http://127.0.0.1:8000
 ```
 
----
+
 
 ##  Current Status
 
@@ -171,7 +171,7 @@ In Progress:
  VS Code AI chat interface  
  Code explanation and suggestions  
 
----
+
 
 ##  Future Roadmap
 
@@ -181,7 +181,7 @@ In Progress:
 - Code refactoring suggestions
 - Private local AI coding companion
 
----
+
 
 ##  Author
 
